@@ -1,0 +1,85 @@
+site_name: Chrome开发者工具
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  #  logo: assets/logo.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: simple/github
+    edit: material/pencil
+    view: material/eye
+    logo: material/library
+  #  favicon: assets/logo.png
+  features:
+    - header.autohide
+    - announce.dismiss
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.footer
+    - navigation.top
+    - content.code.copy
+    #    - content.code.annotate
+    - content.tabs.link
+    #    - navigation.tabs
+    #    - navigation.tabs.sticky
+    - toc.follow
+#    - toc.integrate
+plugins:
+  - search
+extra:
+  homepage: https://gslnzfq.github.io/chrome_devtools/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gslnzfq
+  generator: false
+#  alternate:
+#    - name: English
+#      link: /en/
+#      lang: en
+#    - name: 简体中文
+#      link: /zh/
+#      lang: zh
+#  consent:
+#    title: Cookie consent
+#    description: 我们使用cookie来识别您的重复访问和偏好,至于衡量我们文档是否有效性,找出他们在寻找什么。只要你同意，你就是在帮我们让我们的文档更好.
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - pymdownx.emoji
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+copyright: Copyright &copy; 2023 - 2023 gslnzfq
+repo_url: https://github.com/gslnzfq/chrome_devtools
+repo_name: gslnzfq/chrome_devtools
