@@ -2,7 +2,7 @@
 title: 审查元素
 ---
 
-## 1. 强制修改状态
+## 强制修改状态
 
 方式1，直接右键点击节点操作，在我们开发hover等样式的时候有作用，因为鼠标hover后鼠标移走了就hover消失了。
 
@@ -12,11 +12,11 @@ title: 审查元素
 
 ![image.png|500](https://s1.vika.cn/space/2023/01/29/1acb31178c2c4c158e7eb8ba58a88ef0)
 
-## 2. 删除或隐藏元素
+## 删除或隐藏元素
 
 删除元素，选中按Delete；隐藏元素，选中按H。**仅仅在浏览器中删除，和源代码没有关系**。
 
-## 3. 修改节点名称、内容或属性
+## 修改节点名称、内容或属性
 
 双击节点或者双击内容即可修改，属性也可以双击，导航到下一个属性按Tab，上一个属性Shift+Tab。
 
@@ -27,7 +27,7 @@ title: 审查元素
 - 值+10/-10，Shift+Up/Down
 - 值+100/-100，Command+Up/Down
 
-## 4. 在控制台访问节点
+## 在控制台访问节点
 
 使用$0访问当前选中的节点，可以右键点击节点存储为全局变量，会生成一个temp开头的变量，即使失去焦点也可以一直访问。
 
@@ -36,19 +36,19 @@ title: 审查元素
 ![image.png|500](https://s1.vika.cn/space/2023/02/07/9ba666e373704872b4a71228b7f3410b)
 
 
-## 5. HTML vs DOM
+## HTML vs DOM
 
 HTML represents initial page content, and the DOM represents current page content. When JavaScript adds, removes, or edits nodes, the DOM becomes different than the HTML.
 
 HTML相当于初始的页面内容，而DOM相当于当前的页面内容，Javascript可以修改DOM，但是不能修改HTML。
 
-## 6. 查看DOM节点的属性
+## 查看DOM节点的属性
 
 选中dom节点，打开属性面板就可看到dom节点的属性，如下图所示
 
 ![image.png|600](https://s1.vika.cn/space/2023/01/30/284b7643dee44a57bad531f97341f8eb)
 
-## 7. 使用标志查看布局
+## 使用标志查看布局
 
 右键点击节点"标志设置"，可以展示或者取消标志；
 
@@ -56,7 +56,7 @@ HTML相当于初始的页面内容，而DOM相当于当前的页面内容，Java
 
 打开的标志会在dom树中展示，点击对应的标志可以查看布局信息，更多使用[请查看](https://developer.chrome.com/docs/devtools/elements/badges/)。
 
-## 8. CSS查看和修改
+## CSS查看和修改
 
 通过样式面板可以给修改节点的样式、添加css类、添加伪类。
 
@@ -72,7 +72,7 @@ HTML相当于初始的页面内容，而DOM相当于当前的页面内容，Java
 - [Inspect and debug CSS flexbox layouts - Chrome Developers](https://developer.chrome.com/docs/devtools/css/flexbox/)
 - [Inspect and debug CSS container queries - Chrome Developers](https://developer.chrome.com/docs/devtools/css/container-queries/)
 
-## 9. 调试打印的样式
+## 调试打印的样式
 
 打开渲染tab，模拟css类型中修改为打印，页面就会展示打印的视图。
 

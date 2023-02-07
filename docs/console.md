@@ -6,13 +6,13 @@ title: 控制台
 
 ![image.png](https://s1.vika.cn/space/2023/02/07/3700551ae4274ad2b9f2d6e3f0b983b9)
 
-## 1. 实时监控某个值
+## 实时监控某个值
 
 点击控制台上方的小眼睛，在上方添加表达式，可以在运行过程看它的值。当我们调整窗口大小的时候，该值就会变化。
 
 ![image.png|500](https://s1.vika.cn/space/2023/01/30/f3b259e6bf2e4493a50b24d6f2e2a15d)
 
-## 2. 格式化展示信息
+## 格式化展示信息
 
 我们可以给控制台的输出设置样式，或者使用模板输出内容，占位符如下。
 
@@ -31,7 +31,7 @@ console.log("%cHooray", style);
 
 更多使用和实例参考[官方文档](https://developer.chrome.com/docs/devtools/console/format-style/)。
 
-## 3. Console API说明
+## Console API说明
 
 常见的API
 
@@ -123,7 +123,7 @@ function fn3() {
 fn1();
 ```
 
-## 4. 其他工具方法
+## 其他工具方法
 
 - $(selector \[, startNode]) 相当于 document.querySelector()
 - \$$(selector \[, startNode]) 相当于 Array.from(document.querySelectorAll())
@@ -133,7 +133,7 @@ fn1();
 
 更多请查看[官方文档](https://developer.chrome.com/docs/devtools/console/utilities/#querySelector-function)。
 
-## 5. 常用快捷键
+## 快捷键
 
 - 聚焦到控制台：Control+\`
 - 清空控制台：Command+K / Control+L

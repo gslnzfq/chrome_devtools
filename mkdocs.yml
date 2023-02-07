@@ -83,3 +83,14 @@ markdown_extensions:
 copyright: Copyright &copy; 2023 - 2023 gslnzfq
 repo_url: https://github.com/gslnzfq/chrome_devtools
 repo_name: gslnzfq/chrome_devtools
+nav:
+  - 概览: index.md
+  - 开始: startup.md
+  - 功能介绍:
+    - 审查元素: element.md
+    - 控制台: console.md
+    - 源代码: source.md
+    - 网络: network.md
+#    - 性能: performance.md
+#    - 内存: memory.md
+    - 模拟手机: simulation.md
