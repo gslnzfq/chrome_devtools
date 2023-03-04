@@ -31,7 +31,7 @@ title: 审查元素
 
 使用$0访问当前选中的节点，可以右键点击节点存储为全局变量，会生成一个temp开头的变量，即使失去焦点也可以一直访问。
 
-右键点击节点可以复制js路径，例如 document.querySelector("#type")，自动化的时候可能会用到；
+右键点击节点可以复制js路径，例如 document.querySelector("#type")，自动化测试时会用到；
 
 ![image.png|500](https://s1.vika.cn/space/2023/02/07/9ba666e373704872b4a71228b7f3410b)
 
