@@ -8,7 +8,7 @@ title: 概览
 
 下面是一张开发者工具的功能图：
 
-![image.png](https://s1.vika.cn/space/2023/02/07/c523b0009b154e628a5e3798eed3431d)
+![vtf7m](../images/vtf7m.png)
 
 开发者工具可以帮我们做什么，不限于下面内容
 

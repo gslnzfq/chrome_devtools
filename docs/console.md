@@ -4,19 +4,19 @@ title: 控制台
 
 可以通过控制台打印右边的文件链接点击查看是在源代码的什么地方触发打印的，点击可以跳转。
 
-![image.png](https://s1.vika.cn/space/2023/02/07/3700551ae4274ad2b9f2d6e3f0b983b9)
+![p6tp3](../images/p6tp3.png)
 
 ## 实时监控某个值
 
 点击控制台上方的小眼睛，在上方添加表达式，可以在运行过程看它的值。当我们调整窗口大小的时候，该值就会变化。
 
-![image.png|500](https://s1.vika.cn/space/2023/01/30/f3b259e6bf2e4493a50b24d6f2e2a15d)
+![7ctc7](../images/7ctc7.png)
 
 ## 格式化展示信息
 
 我们可以给控制台的输出设置样式，或者使用模板输出内容，占位符如下。
 
-![image.png|500](https://s1.vika.cn/space/2023/01/30/1de8b7f7fa3f4b0c94972236beb3efca)
+![s86rf](../images/s86rf.png)
 
 我们可以通过这些给控制台输出设置样式，例如
 
@@ -27,7 +27,7 @@ console.log("%cHooray", style);
 
 上述代码会输出下面的内容
 
-![image.png](https://s1.vika.cn/space/2023/02/07/d2833b39a2574c1e9bf61a33496e2fd3)
+![nmkjl](../images/nmkjl.png)
 
 更多使用和实例参考[官方文档](https://developer.chrome.com/docs/devtools/console/format-style/)。
 

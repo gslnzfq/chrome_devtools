@@ -6,7 +6,7 @@ title: 网络
 
 网络面板示意图
 
-![image.png](https://s1.vika.cn/space/2023/02/07/c09063e661d94b3299a4dc6fe2d4ca4f)
+![2boy0](../images/2boy0.png)
 
 ① 保留日志，即使刷新页面或者页面跳转网路日志也不会消失，平常查看301/302这种请求比较有用。  
 ② 停用缓存，开启后服务器设置的请求头将不起作用，缓存相关的请求头可查看[HTTP缓存文章](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)。  
@@ -20,7 +20,7 @@ title: 网络
 
 点击某一个请求可以查看解析后的请求和响应报文，大概如下所示
 
-![image.png](https://s1.vika.cn/space/2023/02/07/144fede1b40c4d0e997a486ef9b7e3b6)
+![uzvr3](../images/uzvr3.png)
 
 **标头** 包括[请求和响应头](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers)信息，报文头部是不区分大小写的，对于我们比较常用的信息有：
 
@@ -55,7 +55,7 @@ title: 网络
 
 鼠标放在请求后面的瀑布图上可以查看请求的时间信息。
 
-![image.png](https://s1.vika.cn/space/2023/02/07/6184e1eb496544328c95b7ab18380fd1)
+![92avz](../images/92avz.png)
 
 ### 基本指标
 
@@ -85,17 +85,17 @@ title: 网络
 
 如果我们需要屏蔽某一个请求，可以右键点击请求来屏蔽当前请求或者屏蔽当前域名的请求，有啥用呢? 屏蔽广告等，广告屏蔽插件基本就是这样实现的。
 
-![image.png](https://s1.vika.cn/space/2023/02/07/ced7f1cd6f3e4e379c7f32447d27f63e)
+![qe0nu](../images/qe0nu.png)
 
 再次请求时，已经展示已屏蔽了，想要恢复的话，右键点击取消屏蔽即可
 
-![image.png](https://s1.vika.cn/space/2023/02/07/4eeb5d2a276e4f83905c4c8c9b685b71)
+![51uv7](../images/51uv7.png)
 
 ## 复制请求信息
 
 请求的信息我们可以将其复制在剪切板，如图所示
 
-![image.png](https://s1.vika.cn/space/2023/02/07/372bfe43793a448daec0c814f4dfa85e)
+![23ucv](../images/23ucv.png)
 
 比较常用的就下面选项
 
@@ -107,7 +107,7 @@ title: 网络
 
 再调试im的使用有作用，例如直播间消息等。
 
-![image.png](https://s1.vika.cn/space/2023/02/07/7c3aab3386254cb0ab0784c638eb43b6)
+![201sr](../images/201sr.png)
 
 
 ## 快捷键

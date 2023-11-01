@@ -514,7 +514,7 @@
 <p>源代码视图的修改会在页面重新加载后失效，即页面刷新之后修改将不复存在。</p>
 <p>打开文件快捷键</p>
 <p>快捷键Control+P (Windows / Linux)，Command+P (Mac)</p>
-<p><img alt="image.png|500" src="https://s1.vika.cn/space/2023/01/29/b62151f97858447c98ca576950443c87" /></p>
+<p><img alt="1krm9" src="../images/1krm9.png" /></p>
 <p>调试快捷键</p>
 <ul>
 <li>跳过下一个函数调用：F10</li>
@@ -527,7 +527,7 @@
 </ul>
 <h2 id="_1">代码片段</h2>
 <p>可以在源代码添加代码片段并且运行，代码片段是保存在浏览器中的，可以在任何页面运行。如果你经常在控制台里面执行一些代码，不妨将这些代码放到代码片段里面保存。</p>
-<p><img alt="image.png|500" src="https://s1.vika.cn/space/2023/01/30/3dc9c83b18f74926aeab6e5f96d13b37" /></p>
+<p><img alt="6mtpq" src="../images/6mtpq.png" /></p>
 <p>点击2的位置会运行代码，可以写一些工具代码在里面，方便调用，例如丢一个lodash代码进去，或者动态的append一个js文件到head里面。</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">script</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">);</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nx">script</span><span class="p">.</span><span class="nx">src</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;https://code.jquery.com/jquery-3.2.1.min.js&#39;</span><span class="p">;</span>
@@ -538,21 +538,21 @@
 <h2 id="_2">调试代码</h2>
 <p>我们可以通过多种方式暂停代码的执行，也就是我们常说的打断点。</p>
 <p>A) 点击源代码左侧，就会出现断点，等到代码执行到这里的时候就会暂停，也可以右键点击添加高级断点</p>
-<p><img alt="image.png|240" src="https://s1.vika.cn/space/2023/01/30/617d61beeaea4f5eb981d7927ce8fecb" /></p>
+<p><img alt="lmqye" src="../images/lmqye.png" /></p>
 <p>B) 在代码中添加debugger；</p>
 <p>C) 在DOM中使用断点，监听dom的变化；</p>
-<p><img alt="image.png|240" src="https://s1.vika.cn/space/2023/01/30/142f3095daf842369875cdca4a102be3" /></p>
+<p><img alt="b086s" src="../images/b086s.png" /></p>
 <p>D) XHR 断点，当发起的请求中包含某些字符串时暂停代码；</p>
 <p>E) 使用其他事件监听器暂停代码；</p>
 <p>如果你是点击了按钮触发了操作，并且导致了错误，我们可以从点击事件去开始排查，打上断点之后，我们触发了事件，就会走相关的代码，我们在源代码视图就能调试了。</p>
-<p><img alt="image.png|500" src="https://s1.vika.cn/space/2023/01/30/f7099588af804f988d9301dfdd11f695" /></p>
+<p><img alt="92y99" src="../images/92y99.png" /></p>
 <p>监控代码中的作用域和变量监视，在右侧的窗口就能看到，详细如下图所示。</p>
-<p><img alt="image.png|500" src="https://s1.vika.cn/space/2023/01/30/e419886b95ae43d4a04506a6536e398a" /></p>
+<p><img alt="50npp" src="../images/50npp.png" /></p>
 <p>F) 遇到异常的时候暂停，可以使用 throw new Error("xxx") 测试；</p>
 <p>G) 调试方法，debug(fnName) 当执行fnName的时候，浏览器会暂停，要确保fnName是存在的并且在当前作用域下；</p>
 <h2 id="_3">工作空间编辑代码</h2>
 <p>相当于直接在浏览器里面进行开发，一边开发一边预览，修改的内容也会同步到本地的文件中。</p>
-<p><img alt="image.png|500" src="https://s1.vika.cn/space/2023/01/30/79dad5d16f5841f5971171b405c817d2" /></p>
+<p><img alt="i1kom" src="../images/i1kom.png" /></p>
 <p>注意：css修改之后会直接反应在页面上，html和js修改后不会反应到页面上；</p>
 <h2 id="_4">调试技巧</h2>
 <p>当代码暂停执行的时候</p>
@@ -579,7 +579,7 @@
 <a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="nx">foo</span><span class="p">(</span><span class="mf">0</span><span class="p">);</span>
 </code></pre></div>
 <p>当我们引入了一些三方库，调试方法的时候不想进入到方法内部时，我们可以忽略这些文件，忽略后该文件中的断点将不再进入。更多操作<a href="https://developer.chrome.com/docs/devtools/javascript/reference/#ignore-list">请查看</a>。</p>
-<p><img alt="image.png|400" src="https://s1.vika.cn/space/2023/01/31/dc84c5bb4fa34bb6ab21156aef18d878" /></p>
+<p><img alt="pxigl" src="../images/pxigl.png" /></p>
 
 
 

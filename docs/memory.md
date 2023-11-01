@@ -9,7 +9,7 @@ title: 内存
 
 我们可以点击拍摄内存快照获取当时浏览器的内存占用信息。
 
-![image.png|600](https://s1.vika.cn/space/2023/02/02/a7174a4d71c2402ca1a85b2013636c33)
+![ujmed](../images/ujmed.png)
 
 #待学习 Javascript中的内存管理，学习后查看：[Memory terminology - Chrome Developers](https://developer.chrome.com/docs/devtools/memory-problems/memory-101/)
 
@@ -33,7 +33,7 @@ memory leaks, memory bloat, and frequent garbage collections
 
 使用任务管理器监控内存实时占用：
 
-![image.png|600](https://s1.vika.cn/space/2023/02/02/56dfdf5496804a158ebe5ada58993de8)
+![4t2h1](../images/4t2h1.png)
 
 Javascript Memory：
 
