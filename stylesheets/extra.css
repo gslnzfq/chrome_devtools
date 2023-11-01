@@ -1,0 +1,16 @@
+.app_footer {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.md-content img {
+  box-shadow: 0 0 10px -2px var(--md-default-fg-color--lighter);
+  border-radius: 5px;
+}
+
+[dir=ltr] .md-typeset ol, [dir=ltr] .md-typeset ul,
+[dir=ltr] .md-typeset ol li ol, [dir=ltr] .md-typeset ol li ul, [dir=ltr] .md-typeset ul li ol, [dir=ltr] .md-typeset ul li ul {
+  margin-left: 0;
+}
